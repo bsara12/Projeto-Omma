@@ -398,11 +398,29 @@ section.contato .container {
     }
 }
 
+@media (max-width: 700px) {
+    .lista-receitas article {
+        width: 490px;
+    }
+
+    main section.banner {
+        background-position: center;
+    }
+
+    main section.banner .container {
+        justify-content: center;
+        align-items: end;
+    }
+
+    main section.banner .container h1 {
+        padding: 10px;
+    }
+
     main section.todas-receitas h2 {
         text-align: center;
     }
 
-    main section.risoto-abobora h2 {
+    main section.risoto h2 {
         font-size: 45px;
     }
 
@@ -410,7 +428,7 @@ section.contato .container {
         max-width: 100%;
     }
 
-    .banner-contato .container, 
+    .banner-contato .container,
     section.contato .container {
         padding: 30px;
         flex-direction: column-reverse;
@@ -426,4 +444,6 @@ section.contato .container {
         width: 100%;
         margin: 25px 0;
     }
+
+
 }
