@@ -243,7 +243,9 @@ main section.todas-receitas h2 {
 }
 
 .container-receita-interna main img {
-    width: 100%;
+    width: 93%;
+    height: 452px;
+
 }
 
 small.tag {
@@ -445,5 +447,7 @@ section.contato .container {
         margin: 25px 0;
     }
 
-
+   footer{
+    flex: wrap;
+   }
 }
